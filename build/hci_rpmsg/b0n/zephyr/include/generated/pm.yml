@@ -1,0 +1,12 @@
+b0n:
+# If minimal config is enabled the binary will be around 5kB.
+# Since locking granularity is 2kB, ensure that size of `b0n` span is aligned.
+  size: 0x8600
+  placement:
+    after: start
+b0n_container:
+  span: [b0n, provision]
+provision:
+  size: 0x200
+  placement:
+    after: b0n

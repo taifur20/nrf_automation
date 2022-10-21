@@ -1,0 +1,2 @@
+osource "c:/Users/khair/Desktop/Nordic/ble_per/peripheral_lbs/boards/shields/*/Kconfig.defconfig"
+osource "C:/Users/khair/ncs/v2.1.0/nrf/boards/shields/*/Kconfig.defconfig"

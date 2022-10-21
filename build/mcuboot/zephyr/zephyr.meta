@@ -1,0 +1,211 @@
+modules:
+- name: nrf
+  path: C:/Users/khair/ncs/v2.1.0/nrf
+  revision: 7a358cb7e28c77ae8359c1c6a07c31237bb7f78c
+- name: hostap
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/hostap
+  revision: 47399f055431513b5dfcd9d1fd1ec5dc5c96a252
+- name: mcuboot
+  path: C:/Users/khair/ncs/v2.1.0/bootloader/mcuboot
+  revision: bf00840a090f396ec1554968e19fa0e02c077d38
+- name: mbedtls
+  path: C:/Users/khair/ncs/v2.1.0/modules/crypto/mbedtls
+  revision: 7fed49c9b9f983ad6416986661ef637459723bcb
+- name: trusted-firmware-m
+  path: C:/Users/khair/ncs/v2.1.0/modules/tee/tf-m/trusted-firmware-m
+  revision: 43782540336a256fe24c28d5d6bf02d8e2b3a706
+- name: tfm-mcuboot
+  path: C:/Users/khair/ncs/v2.1.0/modules/tee/tfm-mcuboot
+  revision: 4aa516e7281fc6f9a2dce0b0efda9acc580fa254
+- name: cjson
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/cjson
+  revision: c6af068b7f05207b28d68880740e4b9ec1e4b50a
+- name: azure-sdk-for-c
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/azure-sdk-for-c
+  revision: 308c171cb4b5eed266649012a68406487ec81fb2
+- name: memfault-firmware-sdk
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/memfault-firmware-sdk
+  revision: 0cf1078457929c4a04b64e0578923aa132383ec3
+- name: cirrus-logic
+  path: C:/Users/khair/ncs/v2.1.0/modules/hal/cirrus-logic
+  revision: 9f6b3812237fbb0d4157ba3584c13f1644fcbe3a
+- name: openthread
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/openthread
+  revision: 0d19f9112101e87722ec80b3a247bc7a1c54b232
+- name: canopennode
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/canopennode
+  revision: 53d3415c14d60f8f4bfca54bfbc5d5a667d7e724
+- name: chre
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/chre
+  revision: ef76d3456db07e4959df555047d6962279528c8d
+- name: cmsis
+  path: C:/Users/khair/ncs/v2.1.0/modules/hal/cmsis
+  revision: 5f86244bad4ad5a590e084f0e72ba7a1416c2edf
+- name: fatfs
+  path: C:/Users/khair/ncs/v2.1.0/modules/fs/fatfs
+  revision: a30531af3a95a9a3ea7d771ea8a578ebfed45514
+- name: hal_nordic
+  path: C:/Users/khair/ncs/v2.1.0/modules/hal/nordic
+  revision: f6628a30581d8d4b80954af163b83ce065e87467
+- name: st
+  path: C:/Users/khair/ncs/v2.1.0/modules/hal/st
+  revision: 52a522ca4a8a9ec1e9bb5bb514e1ab6f102863fe
+- name: libmetal
+  path: C:/Users/khair/ncs/v2.1.0/modules/hal/libmetal
+  revision: 2f586b4f1276fb075ee145421bdf6cbe5403aa41
+- name: liblc3codec
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/liblc3codec
+  revision: 3951cf1b71ff3be086c9b9b595e473e12301337c
+- name: littlefs
+  path: C:/Users/khair/ncs/v2.1.0/modules/fs/littlefs
+  revision: 652f2c5646e79b881e6f3099686ad3b7af9e216c
+- name: loramac-node
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/loramac-node
+  revision: 0257b50905695192d095667b1c3abb80346db1a1
+- name: lvgl
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/gui/lvgl
+  revision: 487bcde705b6f453d053f28dbba4dd9f353d1ccb
+- name: lz4
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/lz4
+  revision: 8e303c264fc21c2116dc612658003a22e933124d
+- name: mipi-sys-t
+  path: C:/Users/khair/ncs/v2.1.0/modules/debug/mipi-sys-t
+  revision: a5163c1800a5243f8b05d84c942da008df4cb666
+- name: nanopb
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/nanopb
+  revision: dc4deed54fd4c7e1935e3b6387eedf21bb45dc38
+- name: nrf_hw_models
+  path: C:/Users/khair/ncs/v2.1.0/modules/bsim_hw_models/nrf_hw_models
+  revision: 93406267eca506003bcb86a86927777a32e729d9
+- name: open-amp
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/open-amp
+  revision: 8d53544871e1f300c478224faca6be8384ab0d04
+- name: picolibc
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/picolibc
+  revision: e87b2fc37345a62361478f0a6efd140e14180ba5
+- name: segger
+  path: C:/Users/khair/ncs/v2.1.0/modules/debug/segger
+  revision: d4e568a920b4bd087886170a5624c167b2d0665e
+- name: tinycbor
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/tinycbor
+  revision: 9e1f34bc08123aaad7666d3652aaa839e8178b3b
+- name: tinycrypt
+  path: C:/Users/khair/ncs/v2.1.0/modules/crypto/tinycrypt
+  revision: 3e9a49d2672ec01435ffbf0d788db6d95ef28de0
+- name: TraceRecorder
+  path: C:/Users/khair/ncs/v2.1.0/modules/debug/TraceRecorder
+  revision: 9893bf1cf649a2c4ee2e27293f887994f3d0da5b
+- name: tf-m-tests
+  path: C:/Users/khair/ncs/v2.1.0/modules/tee/tf-m/tf-m-tests
+  revision: c99a86b295c4887520da9d8402566d7f225c974e
+- name: psa-arch-tests
+  path: C:/Users/khair/ncs/v2.1.0/modules/tee/tf-m/psa-arch-tests
+  revision: f4fc2442b8e29e2a03d9899e46e5a3ea3df8c2c9
+- name: zcbor
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/zcbor
+  revision: a0d6981f14d4001d6f0d608d1a427f9bc6bb6d02
+- name: zscilib
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/zscilib
+  revision: a54986aa98db4082ac56b582843bb5b5435208a6
+- name: nrfxlib
+  path: C:/Users/khair/ncs/v2.1.0/nrfxlib
+  revision: bbbe315f44acc0a48af744411baa0c6e63e42914
+- name: connectedhomeip
+  path: C:/Users/khair/ncs/v2.1.0/modules/lib/matter
+  revision: 6cfff048290771cb6c295fa52d6ced33b7222eb4
+west:
+  manifest: C:\Users\khair\ncs\v2.1.0\nrf\west.yml
+  projects:
+  - path: C:/Users/khair/ncs/v2.1.0/nrf
+    revision: 7a358cb7e28c77ae8359c1c6a07c31237bb7f78c
+  - path: C:/Users/khair/ncs/v2.1.0/zephyr
+    revision: 86893246053c50d34618f09ec6722cae8ba19472
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/hostap
+    revision: 47399f055431513b5dfcd9d1fd1ec5dc5c96a252
+  - path: C:/Users/khair/ncs/v2.1.0/bootloader/mcuboot
+    revision: bf00840a090f396ec1554968e19fa0e02c077d38
+  - path: C:/Users/khair/ncs/v2.1.0/mbedtls
+    revision: cfc83308dd686c4e923e9f278afbdbda7e21af9a
+  - path: C:/Users/khair/ncs/v2.1.0/nrfxlib
+    revision: bbbe315f44acc0a48af744411baa0c6e63e42914
+  - path: C:/Users/khair/ncs/v2.1.0/modules/tee/tf-m/trusted-firmware-m
+    revision: 43782540336a256fe24c28d5d6bf02d8e2b3a706
+  - path: C:/Users/khair/ncs/v2.1.0/modules/tee/tfm-mcuboot
+    revision: 4aa516e7281fc6f9a2dce0b0efda9acc580fa254
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/matter
+    revision: 6cfff048290771cb6c295fa52d6ced33b7222eb4
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/cjson
+    revision: c6af068b7f05207b28d68880740e4b9ec1e4b50a
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/azure-sdk-for-c
+    revision: 308c171cb4b5eed266649012a68406487ec81fb2
+  - path: C:/Users/khair/ncs/v2.1.0/test/cmock
+    revision: f65066f15d8248e6dcb778efb8739904a4512087
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/memfault-firmware-sdk
+    revision: 0cf1078457929c4a04b64e0578923aa132383ec3
+  - path: C:/Users/khair/ncs/v2.1.0/modules/hal/cirrus-logic
+    revision: 9f6b3812237fbb0d4157ba3584c13f1644fcbe3a
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/openthread
+    revision: 0d19f9112101e87722ec80b3a247bc7a1c54b232
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/canopennode
+    revision: 53d3415c14d60f8f4bfca54bfbc5d5a667d7e724
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/chre
+    revision: ef76d3456db07e4959df555047d6962279528c8d
+  - path: C:/Users/khair/ncs/v2.1.0/modules/hal/cmsis
+    revision: 5f86244bad4ad5a590e084f0e72ba7a1416c2edf
+  - path: C:/Users/khair/ncs/v2.1.0/tools/edtt
+    revision: 1ea61a390d2bfcf3b2ecdba8f8b0b98dfdffbd11
+  - path: C:/Users/khair/ncs/v2.1.0/modules/fs/fatfs
+    revision: a30531af3a95a9a3ea7d771ea8a578ebfed45514
+  - path: C:/Users/khair/ncs/v2.1.0/modules/hal/nordic
+    revision: f6628a30581d8d4b80954af163b83ce065e87467
+  - path: C:/Users/khair/ncs/v2.1.0/modules/hal/st
+    revision: 52a522ca4a8a9ec1e9bb5bb514e1ab6f102863fe
+  - path: C:/Users/khair/ncs/v2.1.0/modules/hal/libmetal
+    revision: 2f586b4f1276fb075ee145421bdf6cbe5403aa41
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/liblc3codec
+    revision: 3951cf1b71ff3be086c9b9b595e473e12301337c
+  - path: C:/Users/khair/ncs/v2.1.0/modules/fs/littlefs
+    revision: 652f2c5646e79b881e6f3099686ad3b7af9e216c
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/loramac-node
+    revision: 0257b50905695192d095667b1c3abb80346db1a1
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/gui/lvgl
+    revision: 487bcde705b6f453d053f28dbba4dd9f353d1ccb
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/lz4
+    revision: 8e303c264fc21c2116dc612658003a22e933124d
+  - path: C:/Users/khair/ncs/v2.1.0/modules/crypto/mbedtls
+    revision: 7fed49c9b9f983ad6416986661ef637459723bcb
+  - path: C:/Users/khair/ncs/v2.1.0/modules/debug/mipi-sys-t
+    revision: a5163c1800a5243f8b05d84c942da008df4cb666
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/nanopb
+    revision: dc4deed54fd4c7e1935e3b6387eedf21bb45dc38
+  - path: C:/Users/khair/ncs/v2.1.0/tools/net-tools
+    revision: e0828aa9629b533644dc96ff6d1295c939bd713c
+  - path: C:/Users/khair/ncs/v2.1.0/modules/bsim_hw_models/nrf_hw_models
+    revision: 93406267eca506003bcb86a86927777a32e729d9
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/open-amp
+    revision: 8d53544871e1f300c478224faca6be8384ab0d04
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/picolibc
+    revision: e87b2fc37345a62361478f0a6efd140e14180ba5
+  - path: C:/Users/khair/ncs/v2.1.0/modules/debug/segger
+    revision: d4e568a920b4bd087886170a5624c167b2d0665e
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/tinycbor
+    revision: 9e1f34bc08123aaad7666d3652aaa839e8178b3b
+  - path: C:/Users/khair/ncs/v2.1.0/modules/crypto/tinycrypt
+    revision: 3e9a49d2672ec01435ffbf0d788db6d95ef28de0
+  - path: C:/Users/khair/ncs/v2.1.0/modules/debug/TraceRecorder
+    revision: 9893bf1cf649a2c4ee2e27293f887994f3d0da5b
+  - path: C:/Users/khair/ncs/v2.1.0/modules/tee/tf-m/tf-m-tests
+    revision: c99a86b295c4887520da9d8402566d7f225c974e
+  - path: C:/Users/khair/ncs/v2.1.0/modules/tee/tf-m/psa-arch-tests
+    revision: f4fc2442b8e29e2a03d9899e46e5a3ea3df8c2c9
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/zcbor
+    revision: a0d6981f14d4001d6f0d608d1a427f9bc6bb6d02
+  - path: C:/Users/khair/ncs/v2.1.0/modules/lib/zscilib
+    revision: a54986aa98db4082ac56b582843bb5b5435208a6
+workspace:
+  dirty: false
+  extra: false
+  'off': false
+zephyr:
+  path: C:/Users/khair/ncs/v2.1.0/zephyr
+  revision: 86893246053c50d34618f09ec6722cae8ba19472

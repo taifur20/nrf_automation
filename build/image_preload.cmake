@@ -1,0 +1,10 @@
+# Generated file that can be used to preload variant images
+set(BOARD_ROOT "c:/Users/khair/Desktop/Nordic/ble_per/peripheral_lbs;C:/Users/khair/ncs/v2.1.0/nrf;C:/Users/khair/ncs/v2.1.0/zephyr" CACHE INTERNAL "NCS child image controlled")
+set(CACHED_CONF_FILE "c:/Users/khair/Desktop/Nordic/ble_per/peripheral_lbs/prj.conf;c:/Users/khair/Desktop/Nordic/ble_per/peripheral_lbs/boards/thingy53_nrf5340_cpuapp_ns.conf" CACHE INTERNAL "NCS child image controlled")
+set(CONFIG_DEBUG_OPTIMIZATIONS "y" CACHE INTERNAL "NCS child image controlled")
+set(CONFIG_DEBUG_THREAD_INFO "y" CACHE INTERNAL "NCS child image controlled")
+set(DTC_OVERLAY_FILE "c:/Users/khair/Desktop/Nordic/ble_per/peripheral_lbs/boards/thingy53_nrf5340_cpuapp_ns.overlay" CACHE INTERNAL "NCS child image controlled")
+set(DTC_OVERLAY_FILE "c:/Users/khair/Desktop/Nordic/ble_per/peripheral_lbs/boards/thingy53_nrf5340_cpuapp_ns.overlay" CACHE INTERNAL "NCS child image controlled")
+set(NCS_TOOLCHAIN_VERSION "NONE" CACHE INTERNAL "NCS child image controlled")
+set(WEST_PYTHON "c:\Users\khair\ncs\toolchains\v2.1.0\opt\bin\python.exe" CACHE INTERNAL "NCS child image controlled")
+set(mcuboot_DTC_OVERLAY_FILE "C:/Users/khair/ncs/v2.1.0/nrf/modules/mcuboot/flash_sim.overlay;C:/Users/khair/ncs/v2.1.0/nrf/modules/mcuboot/usb.overlay" CACHE INTERNAL "NCS child image controlled")

@@ -1,0 +1,7 @@
+add_custom_target(b0n_shared_property_target)
+set_property(TARGET b0n_shared_property_target  PROPERTY KERNEL_HEX_NAME;zephyr.hex)
+set_property(TARGET b0n_shared_property_target  PROPERTY ZEPHYR_BINARY_DIR;C:/Users/khair/Desktop/Nordic/ble_per/peripheral_lbs/build/hci_rpmsg/b0n/zephyr)
+set_property(TARGET b0n_shared_property_target  PROPERTY KERNEL_ELF_NAME;zephyr.elf)
+set_property(TARGET b0n_shared_property_target  PROPERTY BUILD_BYPRODUCTS;C:/Users/khair/Desktop/Nordic/ble_per/peripheral_lbs/build/hci_rpmsg/b0n/zephyr/zephyr.hex;C:/Users/khair/Desktop/Nordic/ble_per/peripheral_lbs/build/hci_rpmsg/b0n/zephyr/zephyr.elf)
+set_property(TARGET b0n_shared_property_target APPEND PROPERTY PM_YML_DEP_FILES;C:/Users/khair/ncs/v2.1.0/nrf/samples/nrf5340/netboot/pm.yml)
+set_property(TARGET b0n_shared_property_target APPEND PROPERTY PM_YML_FILES;C:/Users/khair/Desktop/Nordic/ble_per/peripheral_lbs/build/hci_rpmsg/b0n/zephyr/include/generated/pm.yml)
